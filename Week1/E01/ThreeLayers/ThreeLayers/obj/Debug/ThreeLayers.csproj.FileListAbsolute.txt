@@ -8,3 +8,13 @@ D:\CNTT\Software_Architecture\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.
 D:\CNTT\Software_Architecture\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.csproj.CoreCompileInputs.cache
 D:\CNTT\Software_Architecture\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.exe
 D:\CNTT\Software_Architecture\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.pdb
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.csprojAssemblyReference.cache
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.Form1.resources
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.Properties.Resources.resources
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.csproj.GenerateResource.cache
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.csproj.CoreCompileInputs.cache
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.exe
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\obj\Debug\ThreeLayers.pdb
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\bin\Debug\ThreeLayers.exe.config
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\bin\Debug\ThreeLayers.exe
+D:\CNTT\Software_Architecture\Week1\E01\ThreeLayers\ThreeLayers\bin\Debug\ThreeLayers.pdb
