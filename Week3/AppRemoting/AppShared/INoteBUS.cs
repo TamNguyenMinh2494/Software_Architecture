@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppShared
 {
+    // Cái này tương đương AbstractServer
     public interface INoteBUS
     {
         List<Note> GetAllNotes();

@@ -17,10 +17,10 @@ namespace AppServer
         static void Main(string[] args)
         {
             ChannelServices.RegisterChannel(new TcpChannel(1234), false);
-            RemotingConfiguration.RegisterWellKnownServiceType(typeof(NoteBUS), "noteServer", WellKnownObjectMode.SingleCall);
+            RemotingConfiguration.RegisterWellKnownServiceType(typeof(NoteBUS), "xxx", WellKnownObjectMode.Singleton);
             RemotingConfiguration.CustomErrorsMode = CustomErrorsModes.Off;
-            Console.WriteLine("Server is running at " + GetLocalIPAddress() + "...");
-            Console.ReadKey();
+            Console.WriteLine("Server is running " +GetLocalIPAddress()+"...");
+            Console.Read();
         }
 
         public static string GetLocalIPAddress()

@@ -1,11 +1,11 @@
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\bin\Debug\AppServer.exe.config
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\bin\Debug\AppServer.exe
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\bin\Debug\AppServer.pdb
-D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\obj\Debug\AppServer.csproj.CoreCompileInputs.cache
-D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\obj\Debug\AppServer.exe
-D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\obj\Debug\AppServer.pdb
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\bin\Debug\AppShared.dll
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\bin\Debug\AppShared.pdb
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\bin\Debug\AppShared.dll.config
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\obj\Debug\AppServer.csprojAssemblyReference.cache
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\obj\Debug\AppServer.csproj.CoreCompileInputs.cache
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\obj\Debug\AppServer.csproj.CopyComplete
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\obj\Debug\AppServer.exe
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppServer\obj\Debug\AppServer.pdb

@@ -7,7 +7,7 @@ using AppShared;
 
 namespace AppServer
 {
-    class NoteBUS : MarshalByRefObject, INoteBUS
+    public class NoteBUS : MarshalByRefObject, INoteBUS
     {
         public List<Note> GetAllNotes()
         {
