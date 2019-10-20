@@ -19,12 +19,16 @@ namespace AppServer
         }
         public List<Note> Search_AllNotes(String keyword)
         {
+            db.ObjectTrackingEnabled = false;
             List<Note> notes = db.Notes.Where(x => x.Title.Contains(keyword)).ToList();
             return notes;
+
         }
 
         public bool UpdateNote(Note newNote)
         {
+            db.ObjectTrackingEnabled = true;
+      
             Note dbNote = db.Notes.SingleOrDefault(x => x.ID == newNote.ID);
             if (dbNote == null) return false;
             dbNote.ID = newNote.ID;
@@ -33,6 +37,7 @@ namespace AppServer
             dbNote.Content = newNote.Content;
             dbNote.Date = newNote.Date;
             dbNote.IsSharable = newNote.IsSharable;
+           
             db.SubmitChanges();
             return true;
         }

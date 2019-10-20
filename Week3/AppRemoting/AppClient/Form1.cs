@@ -23,7 +23,7 @@ namespace AppClient
 {
     public partial class Form1 : Form
     {
-        public INoteBUS iBus;
+        public INoteBUS iBus = (INoteBUS)Activator.GetObject(typeof(INoteBUS), "tcp://192.168.1.11:1234/xxx");
 
         public Form1()
         {
@@ -34,21 +34,21 @@ namespace AppClient
         {
             //List<Note> notes = ibus.GetAllNotes();
             //dgrShow.DataSource = notes;
-            //try
+            try
             {
                 
-                iBus = (INoteBUS)Activator.GetObject(typeof(INoteBUS), "tcp://127.0.0.1:1234/xxx");
+                //iBus = (INoteBUS)Activator.GetObject(typeof(INoteBUS), "tcp://127.0.0.1:1234/xxx");
                 List<Note> notes = iBus.GetAllNotes();
                 dgrShow.DataSource = notes;
             }
-            /*catch (Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error");
-            }*/
+            }
         }
 
 
-        private void dataGridViewNotes_SelectionChanged(object sender, EventArgs e)
+        private void dgrShow_SelectionChanged(object sender, EventArgs e)
         {
             if (dgrShow.SelectedRows.Count > 0)
             {
@@ -62,7 +62,7 @@ namespace AppClient
                 List<Note> notes = iBus.GetAllNotes();
                 if (notes != null)
                 {
-                    textBox1.Text = ID.ToString();
+                    txtID.Text = ID.ToString();
                     txtTitle.Text = Title.ToString();
                     txtCreator.Text = Creator.ToString();
                     txtContent.Text = Content.ToString();
@@ -75,7 +75,13 @@ namespace AppClient
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
             String keyword = txtSearch.Text.Trim();
-            List<Note> notes = new NoteBUS().Search(keyword);
+            List<Note> notes = iBus.Search(keyword);
+            dgrShow.DataSource = notes;
+        }
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            String keyword = txtSearch.Text.Trim();
+            List<Note> notes = iBus.Search(keyword);
             dgrShow.DataSource = notes;
         }
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -95,10 +101,10 @@ namespace AppClient
                 Date = Date,
                 IsSharable = IsSharable
             };
-            bool result = new NoteBUS().Update(newNote);
+            bool result = iBus.Update(newNote);
             if (result)
             {
-                List<Note> notes = new NoteBUS().GetAllNotes();
+                List<Note> notes = iBus.GetAllNotes();
                 dgrShow.DataSource = notes;
             }
             else
@@ -124,10 +130,10 @@ namespace AppClient
                 Date = Date,
                 IsSharable = IsSharable
             };
-            bool note = new NoteBUS().Add(newNote);
+            bool note = iBus.Add(newNote);
             if (note)
             {
-                List<Note> notes = new NoteBUS().GetAllNotes();
+                List<Note> notes = iBus.GetAllNotes();
                 dgrShow.DataSource = notes;
             }
             else
@@ -160,10 +166,10 @@ namespace AppClient
                                 MessageBoxDefaultButton.Button2);
             if (r == DialogResult.Yes)
             {
-                bool note = new NoteBUS().Delete(ID);
+                bool note = iBus.Delete(ID);
                 if (note)
                 {
-                    List<Note> notes = new NoteBUS().GetAllNotes();
+                    List<Note> notes = iBus.GetAllNotes();
                     dgrShow.DataSource = notes;
                 }
                 else
@@ -173,5 +179,7 @@ namespace AppClient
             }
             else return;
         }
+
+        
     }
 }

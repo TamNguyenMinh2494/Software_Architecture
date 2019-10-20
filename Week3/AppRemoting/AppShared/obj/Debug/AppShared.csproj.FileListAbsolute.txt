@@ -4,3 +4,4 @@ D:\CNTT\Software_Architecture\Week3\AppRemoting\AppShared\bin\Debug\AppShared.pd
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppShared\obj\Debug\AppShared.csproj.CoreCompileInputs.cache
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppShared\obj\Debug\AppShared.dll
 D:\CNTT\Software_Architecture\Week3\AppRemoting\AppShared\obj\Debug\AppShared.pdb
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppShared\obj\Debug\AppShared.csprojAssemblyReference.cache
