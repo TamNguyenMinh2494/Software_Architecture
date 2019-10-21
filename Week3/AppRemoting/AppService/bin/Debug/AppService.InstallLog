@@ -1,0 +1,42 @@
+﻿Installing assembly 'D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe
+   logfile = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.InstallLog
+Installing service NoteService...
+Creating EventLog source NoteService in log Application...
+Rolling back assembly 'D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe
+   logfile = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.InstallLog
+Restoring event log to previous state for source NoteService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security, State.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Uninstalling assembly 'D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe
+   logfile = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.InstallLog
+Removing EventLog source NoteService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security, State.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe
+   logfile = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.InstallLog
+Installing service NoteService...
+Service NoteService has been successfully installed.
+Creating EventLog source NoteService in log Application...
+Committing assembly 'D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe
+   logfile = D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.InstallLog

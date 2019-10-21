@@ -1,0 +1,13 @@
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe.config
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.exe
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppService.pdb
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppShared.dll
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppShared.pdb
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\bin\Debug\AppShared.dll.config
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\obj\Debug\AppService.csprojAssemblyReference.cache
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\obj\Debug\AppService.ProjectInstaller.resources
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\obj\Debug\AppService.csproj.GenerateResource.cache
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\obj\Debug\AppService.csproj.CoreCompileInputs.cache
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\obj\Debug\AppService.csproj.CopyComplete
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\obj\Debug\AppService.exe
+D:\CNTT\Software_Architecture\Week3\AppRemoting\AppService\obj\Debug\AppService.pdb
