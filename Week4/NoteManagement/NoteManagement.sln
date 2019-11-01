@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteService", "NoteService\NoteService.csproj", "{B2D48F19-C1F9-45CA-9817-BB8C49C324E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppClient", "AppClient\AppClient.csproj", "{DA22EF20-0BBA-4309-9280-204121474197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D48F19-C1F9-45CA-9817-BB8C49C324E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D48F19-C1F9-45CA-9817-BB8C49C324E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D48F19-C1F9-45CA-9817-BB8C49C324E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D48F19-C1F9-45CA-9817-BB8C49C324E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA22EF20-0BBA-4309-9280-204121474197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA22EF20-0BBA-4309-9280-204121474197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA22EF20-0BBA-4309-9280-204121474197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA22EF20-0BBA-4309-9280-204121474197}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC039154-7037-4C03-86BA-219117F6B956}
+	EndGlobalSection
+EndGlobal
