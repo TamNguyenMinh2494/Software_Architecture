@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="strCon-Web.config Connection String" description="strCon Connection String used in web.config by the application to access the database." defaultValue="Data Source=den1.mssql7.gear.host;Initial Catalog=dbnote1;Persist Security Info=True;User ID=dbnote1;Password=Rr3r!~68Sw5J" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CNTT\\Software_Architecture\\Week5\\DemoRESTService\\DemoRESTService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='strCon']/@connectionString" />
+  </parameter>
+</parameters>
