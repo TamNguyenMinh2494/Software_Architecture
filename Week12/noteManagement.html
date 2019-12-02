@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Note Management</title>
+</head>
+
+<body onload="page_Load()">
+    <h2>Note show</h2>
+    <input type="text" id="txtKeyword" placeholder="Keyword" />&nbsp;
+    <input type="button" value="SEARCH" onclick="btnSearch_Click()" />
+    <br /><br />
+    <table id="listNotes" border="1"></table>
+    <br />
+    <h2>NOTE DETAILS</h2>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td><input type="text" id="txtID" /></td>
+        </tr>
+        <tr>
+            <td>Title</td>
+            <td><input type="text" id="txtTitle" /></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><input type="text" id="txtDate" /></td>
+        </tr>
+        <tr>
+            <td>Creator</td>
+            <td><input type="text" id="txtCreator" /></td>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td><input type="text" id="txtContent" /></td>
+        </tr>
+        <tr>
+            <td>IsSharable</td>
+            <td><input type="text" id="txtIsSharable" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="ADD NEW" onclick="btnAdd_Click()" />
+                <input type="button" value="UPDATE" onclick="btnUpdate_Click()" />
+                <input type="button" value="DELETE" onclick="btnDelete_Click()" />
+            </td>
+        </tr>
+    </table>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase.js"></script>
+    <script src="./noteManagement.js"></script>
+
+</body>
+
+</html>
