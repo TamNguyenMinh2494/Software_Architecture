@@ -89,8 +89,19 @@ function search(keyword) {
 }
 
 function addNew(newNote) {
+    dbRef.child("notes").once("value", (snapshot) => {
+        snapshot.forEach((child) => {
+            var note = child.val();
+            if (note.ID == document.getElementById("txtID")) {
+                alert("Sorry bae");
+            }
+            else dbRef.child("notes/N" + newNote.ID).set(newNote); // custom key
+        }
+        )
+    }
+    );
     //dbRef.child("books").push(newBook); // auto-generated key
-    dbRef.child("notes/N" + newNote.ID).set(newNote); // custom key
+
 }
 
 function updateNote(newNote) {
@@ -135,10 +146,10 @@ function renderNoteList(notes) {
 }
 
 function renderNoteDetails(note) {
-    document.getElementById("txtID").value,
-        document.getElementById("txtTitle").value,
-        document.getElementById("txtDate").value,
-        document.getElementById("txtCreator").value,
-        document.getElementById("txtContent").value,
-        document.getElementById("txtIsSharable").value
+    document.getElementById("txtID").value = note.ID,
+        document.getElementById("txtTitle").value = note.Title,
+        document.getElementById("txtDate").value = note.Date,
+        document.getElementById("txtCreator").value = note.Creator,
+        document.getElementById("txtContent").value = note.Content,
+        document.getElementById("txtIsSharable").value = note.IsSharable
 }
